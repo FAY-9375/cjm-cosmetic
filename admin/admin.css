@@ -1,0 +1,37 @@
+*{box-sizing:border-box;font-family:system-ui,sans-serif}
+body{margin:0;background:#faf5f9;color:#222}
+nav{display:flex;flex-wrap:wrap;gap:16px;align-items:center;background:#d4af37;padding:12px 24px}
+nav strong{color:#fff;margin-right:auto}
+nav a{color:#f1e3ee;text-decoration:none}
+main{max-width:960px;margin:20px auto;padding:0 16px}
+h2{display:flex;justify-content:space-between;align-items:center}
+.btn,button{background:#d4af37;color:#fff;border:0;padding:9px 14px;border-radius:6px;cursor:pointer;text-decoration:none;font-size:.95rem;display:inline-block}
+.btn.light{background:#ddd;color:#222}
+.danger{background:#b3261e}
+.box{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 6px #0001;margin-bottom:20px}
+.box label{display:block;margin:10px 0;font-weight:600}
+input:not([type=radio]):not([type=file]){display:block;width:100%;padding:10px;margin-top:4px;border:1px solid #ccc;border-radius:6px}
+input[type=file]{display:block;margin-top:6px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px}
+th,td{padding:10px;border-bottom:1px solid #eee;text-align:left;vertical-align:middle}
+.actions{display:flex;gap:6px}
+.thumb{width:56px;height:56px;object-fit:cover;border-radius:6px}
+.thumb.big{width:140px;height:140px;margin:6px 0}
+.notice{background:#fdecea;color:#7a1712;padding:10px 14px;border-radius:6px}
+.picker{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;margin-bottom:16px}
+.pick{position:relative;display:block;margin:0!important;cursor:pointer;text-align:center}
+.pick img{width:100%;height:110px;object-fit:cover;border-radius:8px;border:3px solid transparent}
+.pick input{position:absolute;opacity:0}
+.pick input:checked + img,.pick.none input:checked + span{border-color:#d4af37;outline:3px solid #d4af37}
+.pick.none span{display:flex;height:110px;align-items:center;justify-content:center;background:#eee;border-radius:8px;font-weight:normal}
+.pick .danger{width:100%;margin-top:4px;padding:5px}
+.tag{padding:2px 8px;border-radius:10px;font-size:.8rem;background:#eee}
+.tag.paid{background:#d7f3dd}.tag.failed{background:#fdecea}.tag.pending{background:#fff3cd}
+.login{display:flex;min-height:100vh;align-items:center;justify-content:center}
+.login .box{width:340px}
+.login button{width:100%;margin-top:10px}
+nav{background:#111}nav a{color:#e8d48a}nav strong{color:#d4af37}
+.btn,button{color:#111;font-weight:600}.danger{color:#fff}
+.btn.light{background:#ddd;color:#222}
+.tag.confirmed{background:#d7e8fb}.tag.completed{background:#d7f3dd}.tag.cancelled{background:#fdecea}
