@@ -1,0 +1,2 @@
+2026-10-02T00:32:12+03:00 {"Body":{"stkCallback":{"MerchantRequestID":"9331-49cd-aadb-34712a73ffd2166154","CheckoutRequestID":"ws_CO_021020260031453793646146","ResultCode":1037,"ResultDesc":"No response from user."}}}
+2026-10-02T00:45:27+03:00 {"Body":{"stkCallback":{"MerchantRequestID":"9331-49cd-aadb-34712a73ffd2167542","CheckoutRequestID":"ws_CO_021020260045032793646146","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
